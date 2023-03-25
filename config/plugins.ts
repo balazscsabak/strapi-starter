@@ -14,4 +14,8 @@ export default (env) => ({
       roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
     },
   },
+  "url-image": {
+    enabled: true,
+    resolve: "./src/plugins/url-image",
+  },
 });

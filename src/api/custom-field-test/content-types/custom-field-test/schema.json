@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_field_tests",
+  "info": {
+    "singularName": "custom-field-test",
+    "pluralName": "custom-field-tests",
+    "displayName": "Custom Field test"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "pluginOptions": {
+        "url-image": {
+          "enabled": true
+        }
+      }
+    }
+  }
+}
