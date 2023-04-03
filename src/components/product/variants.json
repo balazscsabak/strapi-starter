@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_variants",
+  "info": {
+    "displayName": "Variants"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "attributesValues": {
+      "type": "customField",
+      "customField": "plugin::variant-attribute.values"
+    }
+  }
+}

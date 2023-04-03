@@ -4,7 +4,8 @@
   "info": {
     "singularName": "custom-field-test",
     "pluralName": "custom-field-tests",
-    "displayName": "Custom Field test"
+    "displayName": "Custom Field test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
