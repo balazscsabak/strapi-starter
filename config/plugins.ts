@@ -18,4 +18,8 @@ export default (env) => ({
     enabled: true,
     resolve: "./src/plugins/url-image",
   },
+  "variant-attribute": {
+    enabled: true,
+    resolve: "./src/plugins/variant-attribute",
+  },
 });
